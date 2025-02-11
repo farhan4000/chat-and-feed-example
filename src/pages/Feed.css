@@ -1,0 +1,25 @@
+.feed-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.activities {
+  margin-top: 20px;
+}
+
+.activity-item {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.activity-item p {
+  margin: 0 0 10px 0;
+}
+
+.activity-item small {
+  color: #666;
+} 
