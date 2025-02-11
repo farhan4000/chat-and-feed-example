@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
     "stream-chat": "^8.55.0",
     "stream-chat-react": "^12.11.1"
   },
