@@ -17,10 +17,10 @@ import 'stream-chat-react/dist/css/v2/index.css'
 
 function ChatComponent() {
   const apiKey = 'k86g3k78hetj'
-  const userToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzkzNTAzNzUsInVzZXJfaWQiOiJ0ZXN0LXVzZXItMiJ9.t2ysY4aK_YvNeeKa92BiChPCZlCKhGLjhWH5ErDnJvA"
-  const userToken1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidGVzdC11c2VyLTEifQ.wtUjVsamHZcn4u2TsB_w0jRR3MrqoDn651BfGVQsjMI"
-  const userId = 'test-user-2'
-  const userId1 = 'test-user-1'
+  const userToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMiJ9.dgf0LS37Xt6JOo45_V2-ZpVXT-9zpwlUWkGAmVvDXmM"
+  const userToken1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMyJ9.rrnS4-2mXzVhoJPB5YGSPSq46HJ8kLXseCvb6kK7jBs"
+  const userId = '2'
+  const userId1 = '3'
   const [client, setClient] = useState<StreamChat | null>(null)
   const [channel, setChannel] = useState<StreamChannel | null>(null)
   const [loading, setLoading] = useState(true)
@@ -33,7 +33,7 @@ function ChatComponent() {
         await chatClient.connectUser(
           {
             id: userId1,
-            name: 'Demo User',
+            name: 'Demo User 1',
             image: 'https://getstream.io/random_png/?id=cool-shadow-7&name=Cool+shadow',
           },
           userToken1,
