@@ -33,13 +33,13 @@ function ChatComponent() {
         await chatClient.connectUser(
           {
             id: userId1,
-            name: 'Demo User 1',
+            name: 'Johan Negara',
             image: 'https://getstream.io/random_png/?id=cool-shadow-7&name=Cool+shadow',
           },
           userToken1,
         )
 
-        const newChannel = chatClient.channel('messaging', 'test-channel-1', {
+        const newChannel = chatClient.channel('messaging', 'org-2_group-3_cohort-3_module-46', {
           name: 'Should be private to test-user-1',
           members: [userId],
         })
